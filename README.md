@@ -18,6 +18,20 @@ assets/img/brand/      Logo in Varianten (Chrom, dunkel, Favicon, Social-Vorscha
 assets/img/projects/   Projektfotos, nach Projekt in Unterordnern
 ```
 
+## Test-Deployment
+
+Live unter **<https://code2f.github.io/>** über GitHub Pages, Quelle `main` / `/`.
+Jeder Push auf `main` löst automatisch einen Build aus (rund eine Minute).
+
+Das Repository liegt in der Organisation `code2f` und heißt `code2f.github.io` —
+dadurch läuft die Seite als Hauptseite der Organisation im Wurzelpfad, ohne
+Benutzernamen und ohne Unterordner in der Adresse.
+
+**Es muss öffentlich bleiben:** GitHub Pages aus einem privaten Repository
+setzt in einer Organisation einen bezahlten Plan voraus. Wird das Repository
+auf privat gestellt, schaltet GitHub Pages mit der Meldung
+„current plan does not support private GitHub Pages" ab und die Seite ist offline.
+
 ## Lokal ansehen
 
 Kein Build nötig, aber ein Server ist erforderlich (die Seiten laden Assets über
