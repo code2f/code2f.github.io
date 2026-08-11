@@ -50,22 +50,34 @@ ohne Spiegelungsregeln funktioniert.
 - Telefonnummern nutzen `unicode-bidi: isolate-override`, damit die Zifferngruppen
   von links nach rechts stehen
 
-## Noch offen
+## Inhaltsstand
 
-Diese Inhalte sind **Platzhalter** und müssen vor einem echten Livegang durch
-belegbare Angaben ersetzt oder entfernt werden:
+Die Seite behauptet nur, was belegt ist. **Echt und bestätigt:** Firmenname,
+Telefon/WhatsApp, Adresse (Dream City, Erbil), Facebook, Instagram, die
+20 Projekte mit echten Fotos und die Leistungsbeschreibungen.
 
-- Kennzahlen: 240 Projekte, 12 Jahre, 45 Mitarbeitende, 98 % Zufriedenheit
-- die drei Kundenstimmen samt Namen
-- die vier Teamprofile samt Lebensläufen
-- Gründungsjahr 2014 und der komplette Zeitstrahl
-- die Liste der Akkreditierungen und Versicherungen
-- Zusagen wie „zwei Jahre Garantie" und „vertragliche Entschädigung bei Verzug"
-- E-Mail `info@betton-iq.com`, Öffnungszeiten
-- Titel der beiden neuen Projekte (Innenarchitektur, Hotel)
+Vor der öffentlichen Test-URL wurden folgende Platzhalter **entfernt**, weil sie
+unter echtem Firmennamen und echter Telefonnummer Unbelegtes behauptet hätten:
 
-Echt und bestätigt sind: Firmenname, Telefon/WhatsApp, Adresse (Dream City, Erbil),
-Facebook, Instagram und die Projektfotos.
+| entfernt | wo |
+|---|---|
+| Kennzahlen 240 / 12 / 45 / 98 % / 85.000 m² | Startseite, Werke, Über uns |
+| „12 Jahre im Markt", Gründungsjahr 2014 | Startseite, Über uns |
+| drei Kundenstimmen mit Namen | Startseite |
+| vier Teamprofile mit Lebensläufen | Über uns |
+| Zeitstrahl 2014–2026 | Über uns |
+| Akkreditierungen und Versicherungsnachweise | Über uns |
+| „zwei Jahre Garantie", „vertragliche Entschädigung bei Verzug" | Startseite, Leistungen, Über uns |
+| Standorte Sulaimaniyya und Dohuk | Leistungen, Kontakt |
+| E-Mail `info@betton-iq.com` | alle Seiten |
+
+Sobald belegbare Angaben vorliegen, kommen die Abschnitte zurück — der Aufbau
+steht noch, es fehlen nur die Zahlen und Namen. Am ehesten lohnen sich zuerst:
+eine echte E-Mail-Adresse, die tatsächliche Projektzahl, das Gründungsjahr und
+zwei bis drei Kundenstimmen mit Einverständnis.
+
+Weiterhin offen: Titel der zwei neuen Projekte (Innenarchitektur, Hotel) —
+sie heißen derzeit nur nach ihrer Gattung.
 
 Das Kontaktformular hat **kein Backend** — `initForm()` in `assets/js/main.js`
 simuliert den Versand. Die Stelle für einen echten Endpunkt ist dort kommentiert.
