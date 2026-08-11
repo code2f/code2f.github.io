@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900" role="img" aria-label="فلل الشيخ باز">
+  <defs>
+    <linearGradient id="g04" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="hsl(34 30% 88%)"/>
+      <stop offset="1" stop-color="hsl(34 26% 75%)"/>
+    </linearGradient>
+    <pattern id="p04" width="120" height="120" patternUnits="userSpaceOnUse">
+      <path d="M0 0H120V120" fill="none" stroke="hsl(24 22% 34% / .13)" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="900" fill="url(#g04)"/>
+  <rect width="1200" height="900" fill="url(#p04)"/>
+  <g fill="none" stroke="hsl(24 24% 26% / .55)" stroke-width="2.5">
+    <path d="M187 720V297l223 -99l224 99V720"/>
+    <path d="M652 720V411l180 -76l181 76V720"/>
+    <path d="M120 720h960"/>
+    <path d="M127 720v-70h946v70"/>
+  </g>
+  <g fill="hsl(24 24% 26% / .26)">
+    <rect x="221" y="343" width="62" height="82"/><rect x="309" y="343" width="62" height="82"/><rect x="397" y="343" width="62" height="82"/><rect x="221" y="455" width="62" height="82"/><rect x="309" y="455" width="62" height="82"/><rect x="397" y="455" width="62" height="82"/>
+    <rect x="684" y="461" width="54" height="70"/><rect x="762" y="461" width="54" height="70"/><rect x="840" y="461" width="54" height="70"/><rect x="684" y="559" width="54" height="70"/><rect x="762" y="559" width="54" height="70"/><rect x="840" y="559" width="54" height="70"/>
+  </g>
+  <text x="600" y="828" text-anchor="middle" font-family="Tahoma, Arial, sans-serif" font-size="40"
+        fill="hsl(24 24% 26% / .62)" direction="rtl">فلل الشيخ باز</text>
+</svg>

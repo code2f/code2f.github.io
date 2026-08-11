@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900" role="img" aria-label="مبنى إمباير التجاري">
+  <defs>
+    <linearGradient id="g16" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="hsl(16 30% 88%)"/>
+      <stop offset="1" stop-color="hsl(16 26% 75%)"/>
+    </linearGradient>
+    <pattern id="p16" width="120" height="120" patternUnits="userSpaceOnUse">
+      <path d="M0 0H120V120" fill="none" stroke="hsl(24 22% 34% / .13)" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="900" fill="url(#g16)"/>
+  <rect width="1200" height="900" fill="url(#p16)"/>
+  <g fill="none" stroke="hsl(24 24% 26% / .55)" stroke-width="2.5">
+    <path d="M430 720V210h330v510"/>
+    <path d="M180 720V520h250v200"/>
+    <path d="M760 720V470h260v250"/>
+    <path d="M120 720h960"/>
+  </g>
+  <g fill="hsl(24 24% 26% / .24)">
+<rect x="460" y="245" width="54" height="60"/><rect x="538" y="245" width="54" height="60"/><rect x="616" y="245" width="54" height="60"/><rect x="694" y="245" width="54" height="60"/><rect x="460" y="335" width="54" height="60"/><rect x="538" y="335" width="54" height="60"/><rect x="616" y="335" width="54" height="60"/><rect x="694" y="335" width="54" height="60"/><rect x="460" y="425" width="54" height="60"/><rect x="538" y="425" width="54" height="60"/><rect x="616" y="425" width="54" height="60"/><rect x="694" y="425" width="54" height="60"/><rect x="460" y="515" width="54" height="60"/><rect x="538" y="515" width="54" height="60"/><rect x="616" y="515" width="54" height="60"/><rect x="694" y="515" width="54" height="60"/><rect x="460" y="605" width="54" height="60"/><rect x="538" y="605" width="54" height="60"/><rect x="616" y="605" width="54" height="60"/><rect x="694" y="605" width="54" height="60"/>
+  </g>
+  <text x="600" y="828" text-anchor="middle" font-family="Tahoma, Arial, sans-serif" font-size="40"
+        fill="hsl(24 24% 26% / .62)" direction="rtl">مبنى إمباير التجاري</text>
+</svg>

@@ -1,0 +1,10 @@
+# Zeilenenden im Repository immer LF, im Arbeitsverzeichnis nach Plattform.
+# Verhindert, dass Windows-Auscheckungen später ganze Dateien als geändert zeigen.
+* text=auto eol=lf
+
+# Binärdateien nicht anfassen
+*.jpg binary
+*.jpeg binary
+*.png binary
+*.gif binary
+*.ico binary

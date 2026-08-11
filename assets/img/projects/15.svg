@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900" role="img" aria-label="مشروع سكني في رومانيا">
+  <defs>
+    <linearGradient id="g15" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="hsl(38 30% 88%)"/>
+      <stop offset="1" stop-color="hsl(38 26% 75%)"/>
+    </linearGradient>
+    <pattern id="p15" width="120" height="120" patternUnits="userSpaceOnUse">
+      <path d="M0 0H120V120" fill="none" stroke="hsl(24 22% 34% / .13)" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="900" fill="url(#g15)"/>
+  <rect width="1200" height="900" fill="url(#p15)"/>
+  <g fill="none" stroke="hsl(24 24% 26% / .55)" stroke-width="2.5">
+    <path d="M203 720V444h224v276"/>
+    <path d="M443 720V361h291v359"/>
+    <path d="M750 720V278h248v442"/>
+    <path d="M120 720h960"/>
+  </g>
+  <g fill="hsl(24 24% 26% / .24)">
+    <rect x="229" y="478" width="44" height="50"/><rect x="295" y="478" width="44" height="50"/><rect x="229" y="556" width="44" height="50"/><rect x="295" y="556" width="44" height="50"/>
+    <rect x="469" y="395" width="44" height="50"/><rect x="535" y="395" width="44" height="50"/><rect x="601" y="395" width="44" height="50"/><rect x="469" y="473" width="44" height="50"/><rect x="535" y="473" width="44" height="50"/><rect x="601" y="473" width="44" height="50"/><rect x="469" y="551" width="44" height="50"/><rect x="535" y="551" width="44" height="50"/><rect x="601" y="551" width="44" height="50"/>
+    <rect x="776" y="312" width="44" height="50"/><rect x="842" y="312" width="44" height="50"/><rect x="908" y="312" width="44" height="50"/><rect x="776" y="390" width="44" height="50"/><rect x="842" y="390" width="44" height="50"/><rect x="908" y="390" width="44" height="50"/><rect x="776" y="468" width="44" height="50"/><rect x="842" y="468" width="44" height="50"/><rect x="908" y="468" width="44" height="50"/><rect x="776" y="546" width="44" height="50"/><rect x="842" y="546" width="44" height="50"/><rect x="908" y="546" width="44" height="50"/>
+  </g>
+  <text x="600" y="828" text-anchor="middle" font-family="Tahoma, Arial, sans-serif" font-size="40"
+        fill="hsl(24 24% 26% / .62)" direction="rtl">مشروع سكني في رومانيا</text>
+</svg>

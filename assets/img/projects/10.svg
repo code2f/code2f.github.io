@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900" role="img" aria-label="فيلا على نهر دجلة II">
+  <defs>
+    <linearGradient id="g10" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="hsl(46 30% 88%)"/>
+      <stop offset="1" stop-color="hsl(46 26% 75%)"/>
+    </linearGradient>
+    <pattern id="p10" width="120" height="120" patternUnits="userSpaceOnUse">
+      <path d="M0 0H120V120" fill="none" stroke="hsl(24 22% 34% / .13)" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="900" fill="url(#g10)"/>
+  <rect width="1200" height="900" fill="url(#p10)"/>
+  <g fill="none" stroke="hsl(24 24% 26% / .55)" stroke-width="2.5">
+    <path d="M194 720V311l235 -127l236 127V720"/>
+    <path d="M683 720V413l161 -88l162 88V720"/>
+    <path d="M120 720h960"/>
+    <path d="M134 720v-70h932v70"/>
+    <path d="M653 610h383"/>
+  </g>
+  <g fill="hsl(24 24% 26% / .26)">
+    <rect x="228" y="357" width="62" height="82"/><rect x="316" y="357" width="62" height="82"/><rect x="404" y="357" width="62" height="82"/><rect x="228" y="469" width="62" height="82"/><rect x="316" y="469" width="62" height="82"/><rect x="404" y="469" width="62" height="82"/>
+    <rect x="715" y="463" width="54" height="70"/><rect x="793" y="463" width="54" height="70"/><rect x="871" y="463" width="54" height="70"/><rect x="715" y="561" width="54" height="70"/><rect x="793" y="561" width="54" height="70"/><rect x="871" y="561" width="54" height="70"/>
+  </g>
+  <text x="600" y="828" text-anchor="middle" font-family="Tahoma, Arial, sans-serif" font-size="40"
+        fill="hsl(24 24% 26% / .62)" direction="rtl">فيلا على نهر دجلة II</text>
+</svg>

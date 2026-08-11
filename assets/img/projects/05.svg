@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900" role="img" aria-label="فيلا كنجان ستي I">
+  <defs>
+    <linearGradient id="g05" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="hsl(26 30% 88%)"/>
+      <stop offset="1" stop-color="hsl(26 26% 75%)"/>
+    </linearGradient>
+    <pattern id="p05" width="120" height="120" patternUnits="userSpaceOnUse">
+      <path d="M0 0H120V120" fill="none" stroke="hsl(24 22% 34% / .13)" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="900" fill="url(#g05)"/>
+  <rect width="1200" height="900" fill="url(#p05)"/>
+  <g fill="none" stroke="hsl(24 24% 26% / .55)" stroke-width="2.5">
+    <path d="M219 720V438l134 -93l134 93V720"/>
+    <path d="M505 720V336l238 -122l238 122V720"/>
+    <path d="M120 720h960"/>
+  </g>
+  <g fill="hsl(24 24% 26% / .26)">
+    <rect x="253" y="484" width="62" height="82"/><rect x="341" y="484" width="62" height="82"/>
+    <rect x="537" y="386" width="54" height="70"/><rect x="615" y="386" width="54" height="70"/><rect x="693" y="386" width="54" height="70"/><rect x="771" y="386" width="54" height="70"/><rect x="537" y="484" width="54" height="70"/><rect x="615" y="484" width="54" height="70"/><rect x="693" y="484" width="54" height="70"/><rect x="771" y="484" width="54" height="70"/>
+  </g>
+  <text x="600" y="828" text-anchor="middle" font-family="Tahoma, Arial, sans-serif" font-size="40"
+        fill="hsl(24 24% 26% / .62)" direction="rtl">فيلا كنجان ستي I</text>
+</svg>

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900" role="img" aria-label="فيلا كنجان ستي II">
+  <defs>
+    <linearGradient id="g06" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="hsl(44 30% 88%)"/>
+      <stop offset="1" stop-color="hsl(44 26% 75%)"/>
+    </linearGradient>
+    <pattern id="p06" width="120" height="120" patternUnits="userSpaceOnUse">
+      <path d="M0 0H120V120" fill="none" stroke="hsl(24 22% 34% / .13)" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="900" fill="url(#g06)"/>
+  <rect width="1200" height="900" fill="url(#p06)"/>
+  <g fill="none" stroke="hsl(24 24% 26% / .55)" stroke-width="2.5">
+    <path d="M186 720V375l252 -90l253 90V720"/>
+    <path d="M709 720V465l152 -110l153 110V720"/>
+    <path d="M120 720h960"/>
+    <path d="M679 610h365"/>
+  </g>
+  <g fill="hsl(24 24% 26% / .26)">
+    <rect x="220" y="421" width="62" height="82"/><rect x="308" y="421" width="62" height="82"/><rect x="396" y="421" width="62" height="82"/><rect x="220" y="533" width="62" height="82"/><rect x="308" y="533" width="62" height="82"/><rect x="396" y="533" width="62" height="82"/>
+    <rect x="741" y="515" width="54" height="70"/><rect x="819" y="515" width="54" height="70"/><rect x="897" y="515" width="54" height="70"/><rect x="975" y="515" width="54" height="70"/><rect x="1053" y="515" width="54" height="70"/><rect x="741" y="613" width="54" height="70"/><rect x="819" y="613" width="54" height="70"/><rect x="897" y="613" width="54" height="70"/><rect x="975" y="613" width="54" height="70"/><rect x="1053" y="613" width="54" height="70"/>
+  </g>
+  <text x="600" y="828" text-anchor="middle" font-family="Tahoma, Arial, sans-serif" font-size="40"
+        fill="hsl(24 24% 26% / .62)" direction="rtl">فيلا كنجان ستي II</text>
+</svg>

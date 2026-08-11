@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 56 56" width="56" height="56" role="img" aria-label="Logo">
+  <rect x="2" y="2" width="52" height="52" rx="14" fill="none" stroke="currentColor" stroke-width="2.5" opacity=".55"/>
+  <path d="M16 40V22l12-8 12 8v18" fill="none" stroke="currentColor" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M16 40h24" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+  <path d="M28 40V29" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+</svg>

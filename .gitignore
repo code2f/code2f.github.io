@@ -1,0 +1,12 @@
+# Editor- und Systemdateien
+Thumbs.db
+desktop.ini
+.DS_Store
+.vscode/
+.idea/
+
+# Arbeitskopien, die nicht ausgeliefert werden
+*.bak
+* - Kopie.*
+*- Kopie/
+assets/css - Kopie/
