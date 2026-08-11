@@ -1119,7 +1119,7 @@ p { text-wrap: pretty; }
   inline-size: 100%;
   aspect-ratio: 4 / 4.4;
   object-fit: fill;
-  border-radius: 35% 35% 4px 4px / 24% 24% 4px 4px;
+  border-radius: 60% 60% 4px 4px / 34% 34% 4px 4px;
 }
 /* Schattenfuge, folgt der Bogenkontur */
 .split__media::after {
@@ -1128,6 +1128,14 @@ p { text-wrap: pretty; }
   inset: 15px;
   border: 1px solid hsl(38 28% 94% / .34);
   border-radius: 50% 50% 3px 3px / 32% 32% 3px 3px;
+  pointer-events: none;
+}
+.split__media_about::after {
+  content: "";
+  position: absolute;
+  inset: 15px;
+  border: 1px solid hsl(38 28% 94% / .34);
+  border-radius: 60% 60% 3px 3px / 34% 34% 3px 3px;
   pointer-events: none;
 }
 
@@ -1718,6 +1726,69 @@ body::after {
   background: var(--accent);
 }
 
+/* --- Symbol für Architektur im Kopf der Unterseiten ----------------------
+   Der Rundbogen als Konstruktionszeichnung: der Bogen in Espresso, dazu die
+   Geometrie, aus der ein Architekt ihn aufbaut. Greift dasselbe Formmotiv auf
+   wie Hero, Projektvorschau und Abschnittsbilder — nur als Zeichnung. */
+.page-hero__grid { display: grid; gap: var(--sp-5); }
+@media (min-width: 940px) {
+  .page-hero__grid {
+    grid-template-columns: 1fr auto;
+    align-items: center;
+    gap: var(--sp-6);
+  }
+}
+.page-hero__text { min-inline-size: 0; }
+
+/* Unter 940px ist links kein Platz — dort trägt die Überschrift allein */
+.hero-symbol { display: none; }
+@media (min-width: 940px) {
+  .hero-symbol {
+    display: block;
+    inline-size: clamp(220px, 21vw, 310px);
+    block-size: auto;
+  }
+}
+.hero-symbol g { fill: none; }
+
+.hs-guide  { stroke: var(--line-strong); stroke-width: 1; stroke-dasharray: 3 6; }
+.hs-ground { stroke: var(--line-strong); stroke-width: 1; }
+.hs-arch   { stroke: var(--ink); stroke-width: 2.4; stroke-linecap: round; }
+.hs-inner  { stroke: var(--accent); stroke-width: 1.4; }
+.hs-dim    { stroke: var(--accent); stroke-width: 1.2; }
+.hs-point  { fill: var(--accent); }
+.hs-label  {
+  fill: var(--text-dim);
+  font-family: var(--font-head);
+  font-size: 17px;
+  font-weight: 600;
+}
+
+/* Startzustand nur mit JS — ohne JS steht die Zeichnung sofort fertig da.
+   pathLength="1" macht die Strichlänge unabhängig von der echten Kurvenlänge,
+   dadurch laufen Gerade und Bogen gleich schnell ein. */
+.js .hero-symbol path[pathLength] { stroke-dasharray: 1; stroke-dashoffset: 1; }
+.js .hero-symbol .hs-guide,
+.js .hero-symbol .hs-point,
+.js .hero-symbol .hs-label { opacity: 0; transition: opacity .9s var(--ease); }
+
+.js [data-reveal="symbol"] { opacity: 1; transform: none; }
+
+.js .hero-symbol.is-visible path[pathLength] {
+  stroke-dashoffset: 0;
+  transition: stroke-dashoffset 1.5s var(--ease);
+}
+.js .hero-symbol.is-visible .hs-guide,
+.js .hero-symbol.is-visible .hs-point,
+.js .hero-symbol.is-visible .hs-label { opacity: 1; }
+
+/* Reihenfolge: erst Boden, dann Bogen, dann Fuge, zuletzt die Bemaßung */
+.js .hero-symbol.is-visible .hs-arch path  { transition-delay: .25s; }
+.js .hero-symbol.is-visible .hs-inner path { transition-delay: .6s; }
+.js .hero-symbol.is-visible .hs-dim path   { transition-delay: .95s; }
+.js .hero-symbol.is-visible .hs-point      { transition-delay: .4s; }
+.js .hero-symbol.is-visible .hs-label      { transition-delay: .6s; }
+
 /* --- Sanfte Tiefe beim Scrollen (JS setzt --py) -------------------------- */
 .hero__frame img,
 .project__media img {
@@ -1742,6 +1813,11 @@ body::after {
   }
   .js [data-reveal] { opacity: 1; transform: none; }
   .marquee__track { animation: none; }
+  /* Zeichnung steht sofort fertig da, statt sich aufzubauen */
+  .js .hero-symbol path[pathLength] { stroke-dashoffset: 0; }
+  .js .hero-symbol .hs-guide,
+  .js .hero-symbol .hs-point,
+  .js .hero-symbol .hs-label { opacity: 1; }
 
   /* Effekte abschalten, Endzustand direkt zeigen */
   .scroll-progress { display: none; }

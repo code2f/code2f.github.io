@@ -63,17 +63,42 @@
 
   <!-- ===================== ترويسة الصفحة ===================== -->
   <section class="page-hero">
-    <div class="container">
-      <ol class="crumbs">
-        <li><a href="index.html">الرئيسية</a></li>
-        <li aria-current="page">اتصل بنا</li>
-      </ol>
-      <span class="eyebrow">اتصل بنا</span>
-      <h1 data-reveal="text"><span class="rise">احكِ لنا عن مساحتك</span></h1>
-      <p>
-        املأ النموذج أو اتصل مباشرة. نردّ على كل طلب خلال يوم عمل واحد،
-        ونعود بتصوّر مبدئي وتقدير للتكلفة خلال ٤٨ ساعة — مجاناً وبلا التزام.
-      </p>
+   
+    <div class="container page-hero__grid">
+        <div class="page-hero__text">
+        <ol class="crumbs">
+          <li><a href="index.html">الرئيسية</a></li>
+          <li aria-current="page">اتصل بنا</li>
+        </ol>
+        <span class="eyebrow">اتصل بنا</span>
+        <h1 data-reveal="text"><span class="rise">احكِ لنا عن مساحتك</span></h1>
+        <p>
+          املأ النموذج أو اتصل مباشرة. نردّ على كل طلب خلال يوم عمل واحد،
+          ونعود بتصوّر مبدئي وتقدير للتكلفة خلال ٤٨ ساعة — مجاناً وبلا التزام.
+        </p>
+        </div>
+
+      <!-- Symbol fuer Architektur: der Rundbogen samt der Geometrie,
+           aus der er konstruiert wird - Zirkelkreis, Mittelachse,
+           Kaempferlinie, Radius und Bemassung. -->
+      <svg class="hero-symbol" data-reveal="symbol" viewBox="0 0 400 480" aria-hidden="true">
+        <g class="hs-guide">
+          <circle cx="200" cy="250" r="110"/>
+          <path d="M200 112V462"/>
+          <path d="M52 250h296"/>
+          <path d="M200 250 122 172"/>
+        </g>
+        <g class="hs-ground"><path pathLength="1" d="M40 410h320"/></g>
+        <g class="hs-arch"><path pathLength="1" d="M90 410V250a110 110 0 0 1 220 0v160"/></g>
+        <g class="hs-inner"><path pathLength="1" d="M112 410V250a88 88 0 0 1 176 0v160"/></g>
+        <g class="hs-dim">
+          <path pathLength="1" d="M90 444h220"/>
+          <path pathLength="1" d="M90 436v16"/>
+          <path pathLength="1" d="M310 436v16"/>
+        </g>
+        <circle class="hs-point" cx="200" cy="250" r="4"/>
+        <text class="hs-label" x="166" y="204">R</text>
+      </svg>
     </div>
   </section>
 
@@ -100,7 +125,7 @@
 
             <div class="field">
               <label for="phone">رقم الهاتف <span class="req">*</span></label>
-              <input type="tel" id="phone" name="phone" placeholder="٠٧٥٠ ٠٠٠ ٠٠٠٠" required
+              <input type="tel" id="phone" name="phone" placeholder=" ٠٠٠ ٠٠٠٠ ٠٧٥٠" required
                      pattern="[0-9+٠-٩\s()-]{7,}"
                      data-error="الرجاء إدخال رقم هاتف صحيح."
                      autocomplete="tel" inputmode="tel">
